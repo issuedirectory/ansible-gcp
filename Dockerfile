@@ -7,5 +7,5 @@ RUN apk --no-cache add --virtual build-dependencies \
     gcc \
   && pip install \
     apache-libcloud \
-    pycrypto
+    pycrypto \
   && apk del build-dependencies
